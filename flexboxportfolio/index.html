@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="grid">
+    <div class="row header">
+      <div class="col-6 logo">
+        <img src="images/baby-dactyl.png" class="logo-image" alt="Baby Pterodactyl Logo">
+        <!-- align this left -->
+      </div>
+      <div class="col-6 my-name">
+        <h1 class="super">Baby Pterodactyl</h1>
+        <h3 class="demi">Front End Developer</h3>
+        <!-- align right -->
+      </div>
+    </div>
+    <div class="row hr">
+      <div class="col-12 hr">
+        <hr>
+
+      </div>
+    </div>
+    <div class="flex-container">
+
+      <div class="row">
+        <div class="col-12">
+          <img src="images/main-image.jpg" alt="A black and white dog" class="main-image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="featured-heading-text">Featured Work</h1>
+        </div>
+      </div>
+      <div class="row work-container">
+        <div class="col-6 work-image image">
+          <img src="images/doggo1.jpg" alt="A cute dog">
+          <h1 class="image-text">App 1</h1>
+          <a href="https://www.wikipedia.org/">Link to Work</a>
+        </div>
+        <div class="col-6 work-image image">
+          <img src="images/doggo2.jpg" alt="A cute dog">
+          <h1 class="image-text">App 2</h1>
+          <a href="https://www.wikipedia.org/">Link to Work</a>
+        </div>
+      </div>
+      <div class="row work-container">
+        <div class="col-6 work-image image">
+          <img src="images/doggo3.jpg" alt="A cute dog">
+          <h1 class="image-text">App 3</h1>
+          <a href="https://www.wikipedia.org/">Link to Work</a>
+        </div>
+        <div class="col-6 work-image image">
+          <img src="images/doggo4.jpg" alt="A cute dog">
+          <h1 class="image-text">App 1</h1>
+          <a href="https://www.wikipedia.org/">Link to Work</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 contact-me">
+          <a href="mailto:sasha@babypterodactyl.com"><h1>Contact Me</h1></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <footer class="col-md-6">
+      <sup>Copyright &copy; 2017 Baby Pterodactyl</sup>
+    </footer>
+
+
+
+    <div class="fb-like col-md-6" data-href="https://www.facebook.com/babypterodactylweb/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+    </div>
+    </row>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Facebook Like Button -->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+</body>
+
+</html>
